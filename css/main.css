@@ -1,0 +1,176 @@
+body {
+	font-family: Tahoma, sans-serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+    overflow-x: hidden;
+}
+h1 {
+	font-weight: 700;
+	width: 569px;
+}
+p {
+	line-height: 1.65em;
+}
+/* Navigation bar*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+	background: blue;
+}
+
+li {
+	font-size: 20px;
+	float: left;
+	
+}
+
+	li a {
+		display: block;
+		color: ghostwhite;
+		text-align: center;
+		padding: 10px 16px;
+		text-decoration: none;
+		
+	}
+
+li a:hover {
+    background-color: gold;
+
+}
+
+.container {
+	width: 1171px;
+	margin:  auto;
+	
+}
+/* Header */
+.header {
+	background: navy;
+	padding-top: 62px;
+	padding-bottom: 100px;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.picture {
+	width: 300px;
+	height: 400px;
+}
+.title {
+	font-size: 50px;
+}
+
+.info {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    width: 300px;
+}
+.button {
+	background-color: gold;
+	font-family: 'Times New Roman';
+	color: black;
+	display: block;
+	padding: 25px ;
+	text-align: center;
+	
+	
+	
+}
+	.button:hover {
+		background: #f6c811;
+	}
+/* My pages */
+.page {
+	margin-top: 100px;
+	margin-bottom: 116px;
+	color: navy ;
+
+}
+h2 , h3{
+	margin: auto;
+}
+.sec-title {
+	font-size: 30px;
+	text-align: center;
+}
+.pages {
+	display: flex;
+	justify-content:space-between;
+	text-align:center;
+	margin-top: 70px;
+	
+}
+.pages-background{
+	width: 400px;
+	
+	
+	background:url('../images/scriptonite.jfif') no-repeat center top;
+	padding-top: 200px;
+}
+.page-title {
+	font-size: 19px;
+}
+.page-text {
+	font-size: 15px;
+	font-weight: 400;
+	margin: 20px;
+}
+.pages-create {
+	width:280px;
+	
+	height: 0px;
+	background: url('../images/books.png');
+	padding-top: 200px ;
+	
+
+	
+
+
+}
+.pages-hobby {
+	width: 	400px;
+	background:url('../images/p2.png') no-repeat center top;
+	padding-top: 200px;
+}
+
+	
+.forms {
+	background: #ecf3f8;
+	padding: 104px 0px;
+	color: black;	
+}
+.form-option {
+	width: 343px;
+	margin: 0 auto;
+	margin-top: 62px;
+}
+.input {
+    width:343px;
+    height: 47px;
+    border: 1px solid #bbbbbb;
+    padding-left: 26px;
+    font-family: 'Times New Roman', sans-serif;
+    margin-bottom: 16px;
+}
+.button-form{
+	width: 370px;
+	border: 0;
+	cursor:pointer;
+	margin: 0;
+}
+.footer {
+	padding: 61px 0px;
+	background: #00AFFD;
+}
+.credits {
+	color: ghostwhite;
+	font-size: 14px;
+	text-align: center; 
+}
